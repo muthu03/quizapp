@@ -1,0 +1,40 @@
+<?xml.version="1.0"encoding:"utf8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:Layout_height="match_parent"
+    android:Layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <textview
+        android:Layout_height="wrap_content"
+        android:Layout_width="wrap_content"
+        android:padding="24dp"
+        android:text="@strings/question"></textview>
+
+    <LinearLayout
+        android:Layout_height="wrap_content"
+        android:Layout_width="wrap_content"
+        android:orientation="horizontal">
+
+        <button
+            android:id="@id/true"
+            android:Layout_height="wrap_content"
+            android:Layout_width="wrap_content"
+            android:text="@strings/true" />
+
+        <button
+            android:id="@id/false"
+            android:Layout_height="wrap_content"
+            android:Layout_width="wrap_content"
+            android:text="@strings/false" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

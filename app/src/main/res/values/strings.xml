@@ -1,0 +1,5 @@
+<resources>
+    <string name="true">True</string>
+    <string name="false">False</string>
+    <string name="question">what is your name</string>
+</resources>
